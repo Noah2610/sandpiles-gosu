@@ -1,0 +1,24 @@
+---
+window:
+  size:
+    width:  1080
+    height: 1080
+  fps:        30
+  fullscreen: false
+  caption:    'Sandpiles!'
+grid:
+  grains: 1000000
+  cycles: 20
+  cells:
+    size:
+      width:  8
+      height: 8
+    colors:
+      0:       0xff_ffffff
+      1:       0xff_ffff00
+      2:       0xff_00ff00
+      3:       0xff_0000ff
+      4:       0xff_ffffff
+      default: 0xff_000000
+    max_grains: 3
+...
