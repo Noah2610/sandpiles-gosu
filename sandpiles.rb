@@ -4,8 +4,9 @@ require 'gosu'
 require 'pathname'
 require 'yaml'
 
-require 'awesome_print'
-require 'byebug'
+# Development gems
+#require 'awesome_print'
+#require 'byebug'
 
 ROOT = Pathname.new($0).realpath.dirname
 
